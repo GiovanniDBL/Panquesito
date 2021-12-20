@@ -1,26 +1,24 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import Swal from 'sweetalert2'
-
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-declaracion',
+  templateUrl: './declaracion.component.html',
+  styleUrls: ['./declaracion.component.css']
 })
-export class AppComponent {
-  title = 'panquesito';
+export class DeclaracionComponent implements OnInit {
 
+  constructor() { }
 
-
-
-
+  ngOnInit(): void {
+  }
   buttonsi() {
     Swal.fire({
-      title: 'Custom width, padding, color, background.',
+      title: 'pitito',
       width: 600,
       padding: '3em',
-      imageUrl: 'assets/fotito.jpeg',
+      imageUrl: 'https://tercetocomunicacion.es/wp-content/uploads/2017/05/minions.gif',
       imageWidth: 400,
-      imageHeight: 400,
+      imageHeight: 300,
       imageAlt: 'Custom image',
       color: '#716add',
       background: '#fff url(https://sweetalert2.github.io/images/trees.png)',
@@ -32,6 +30,4 @@ export class AppComponent {
       `
     })
   }
-
 }
-

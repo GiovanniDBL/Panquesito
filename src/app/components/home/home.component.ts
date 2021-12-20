@@ -1,21 +1,22 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import Swal from 'sweetalert2'
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-home',
+  templateUrl: './home.component.html',
+  styleUrls: ['./home.component.css']
 })
-export class AppComponent {
-  title = 'panquesito';
+export class HomeComponent implements OnInit {
 
+  constructor() { }
 
+  ngOnInit(): void {
 
-
+  }
 
   buttonsi() {
     Swal.fire({
-      title: 'Custom width, padding, color, background.',
+      title: 'VOLTEA A VERME',
       width: 600,
       padding: '3em',
       imageUrl: 'assets/fotito.jpeg',
@@ -32,6 +33,4 @@ export class AppComponent {
       `
     })
   }
-
 }
-

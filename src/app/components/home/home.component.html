@@ -1,0 +1,103 @@
+<section class="container" style="position: relative;">
+
+    <!-- <div style="text-align: center;">
+        <h1 style="text-align: center; margin-top: 30%;">¿Quieres ser mi novia?</h1>
+
+
+        <button type="button" onmouseover="mueveElBoton()" id="btnNo" value="No" class="btn btn-danger">No</button>
+
+        <button (click)="buttonsi()" style="margin-left: 50px;" type="button" id="btnSi" value="Si" class="btn btn-success">Si</button>
+
+    </div> -->
+
+    <a class="btn btn-warning centrar" data-bs-toggle="modal" href="#exampleModalToggle" role="button"><i style="color: red;" class="fas fa-heart"></i> ¡Hola! Oprime este botón <i style="color: red;" class="fas fa-heart"></i></a>
+
+    <div style="margin-top: 30%;">
+        <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalToggleLabel">Música</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Para una mejor experiencia y redacción, por favor presione el botón.<br>
+
+
+                        <a href="https://www.youtube.com/watch?v=6AStdL1OXSA" target="_blank" class="btn btn-info">Música <i class="fas fa-music"></i> </a> <br> Pase a la siguiente página <i class="fas fa-arrow-right"></i>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Siguiente página <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalToggleLabel2">Bienvenida</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Hola buenas noches Bebé, Gracias por estar esta noche conmigo, agradezco que me des un poco de tu tiempo y me alegra saber que en este preciso momento estás leyendo esta hermosa página que con mucho amor realice para ti.
+                    <img class="img" src="assets/fotito3.jpeg" alt="">
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle3" data-bs-toggle="modal">Siguiente página <i class="fas fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModalToggle3" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalToggleLabel2">Carta</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Hola de nuevo, Bebé <i style="color: red;" class="fas fa-heart"></i> <i style="color: rgb(78, 78, 15);" class="far fa-laugh-beam"></i> <br> Sigue las estrellitas al pie de la letra:
+                    <ul class="list-group" style="margin-top: 10px;">
+                        <li style="border: 0;" class="list-group-item"> <i style="color: rgb(7, 124, 85);" class="fas fa-splotch"></i> Aún no pases de página</li>
+                        <li style="border: 0;" class="list-group-item"> <i style="color: rgb(7, 124, 85);" class="fas fa-splotch"></i> Voltea por 2 segundos a tu derecha y veras un mueble con objetos</li>
+                        <li style="border: 0;" class="list-group-item"> <i style="color: rgb(7, 124, 85);" class="fas fa-splotch"></i> Entre esos objetos hay una carta, !Buscala! <i style="color: rgb(255, 60, 0);" class="fas fa-envelope"></i></li>
+                        <li style="border: 0;" class="list-group-item"> <i style="color: rgb(7, 124, 85);" class="fas fa-splotch"></i> Leela hasta la última palabra</li>
+                        <li style="border: 0;" class="list-group-item"> <i style="color: rgb(7, 124, 85);" class="fas fa-splotch"></i> Al terminar de leer la carta tendrás que avanzar a la siguiente página <i style="color: red;" class="fas fa-heart"></i></li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <!-- <button class="btn btn-primary" data-bs-target="#exampleModalToggle4" data-bs-toggle="modal">Siguiente página <i class="fas fa-arrow-right"></i></button> -->
+                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle4" data-bs-toggle="modal">Siguiente página <i class="fas fa-arrow-right"></i></button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="exampleModalToggle4" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalToggleLabel2">Chiquita preciosa</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <i style="color: red;" class="fas fa-heart"></i> Te amo con todo mi corazón, lo eres todo para mi, TE AMO <i style="color: red;" class="fas fa-heart"></i>
+                    <img class="img" src="assets/fotito2.jpeg" alt="">
+                </div>
+                <div class="modal-footer">
+
+                    <button class="btn btn-primary" routerLink="/declaracion" href data-bs-toggle="modal">Siguiente página <i class="fas fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</section>
